@@ -11,7 +11,6 @@ let name  = "TextUtils";
     <nav className={`navbar navbar-expand-lg navbar-${props.mode}  bg-${props.mode}`}>
   <div className="container-fluid">
     <a className="navbar-brand" href="/">{props.title}</a>
-  <p> credit by Md Luman Sarkar<p/>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -37,6 +36,10 @@ let name  = "TextUtils";
         <li className="nav-item">
           <a className="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link disabled">credit by Md Luman Sarkar</a>
+        </li>
+  
       </ul>
       <form className="d-flex" role="search">
          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
