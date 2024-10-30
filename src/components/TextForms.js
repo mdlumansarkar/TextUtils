@@ -44,7 +44,7 @@ const TextForms = (props) => {
       </div>
       <div className="container my-3">
         <h2>Your Text Summary</h2>
-        <p>You Type {text.split(" ").filter((element)=>{element.length!==0}).length} words and {text.length} characters</p>
+        <p>You Type {text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
         <p>You need to take time to read this {text.length*0.004} minutes</p>
         <p>your text here : <br/>{text.length>0?text:"Nothing to preview!"}</p>
       </div>
