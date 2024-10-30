@@ -65,6 +65,8 @@ export default function App() {
         {/* // </Router> */}
         <About mode = {mood}/>
         <TextForms showAlert = {showAlert} mode = {mood} toggleMood = {toggleMood} heading = "Enter Your Text Here :"/>
+        <p>copyright@ Md Luman Sarkar || 2024</p>
+
     </>
   );
 }
