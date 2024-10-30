@@ -43,7 +43,7 @@ const About = (props) => {
     
     return(
         <>
-        <div style={{backgroundColor: props.mode === 'dark'?'grey':'white',color:props.mode === 'dark'?'white':'grey'}}  className="accordion container"  id="accordionExample">
+        <div style={{marginTop:'40px',backgroundColor: props.mode === 'dark'?'grey':'white',color:props.mode === 'dark'?'white':'grey'}}  className="accordion container"  id="accordionExample">
   <div style={{backgroundColor: props.mode === 'dark'?'grey':'white',color:props.mode === 'dark'?'white':'grey'}} className="accordion-item" >
     <h2 style={{backgroundColor: props.mode === 'dark'?'grey':'white',color:props.mode === 'dark'?'white':'grey'}} className="accordion-header">
         <h1 className="my-2 mx-2"  >About Us</h1>

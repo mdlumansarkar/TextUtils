@@ -48,7 +48,7 @@ let name  = "TextUtils";
     </div>
   </div>
 </nav>
- <div class={`form-check  form-switch text-${props.mode === 'light'?'dark':'light'}`}>
+ <div style={{border:'2px solid red',borderRadius:'20px',margin:'4px'}} class={`mx-2 my-2  form-check  form-switch text-${props.mode === 'light'?'dark':'light'}`}>
   <input onClick={props.toggleMood} class="form-check-input" type="checkbox" role="switch" id="switch"/>
   <label class="form-check-label" for="switch">{props.text}</label>
 </div>
