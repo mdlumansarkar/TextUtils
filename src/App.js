@@ -51,7 +51,7 @@ export default function App() {
   return (
     <>
     {/* <Router> */}
-    <Navbar title = "TextUtils" mode = {mood} toggleMood = {toggleMood} text = {text}/>
+    <Navbar title = "Md Luman Sarkar" mode = {mood} toggleMood = {toggleMood} text = {text}/>
     <Alert alert = {alert}/>
 
     {/* <Switch>}
